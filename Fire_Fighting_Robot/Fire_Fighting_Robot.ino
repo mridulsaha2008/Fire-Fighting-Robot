@@ -4,7 +4,7 @@
   #include <SoftwareSerial.h> // Adding Software Serial Library
  
   Servo myservo; // Using myservo name
-  SoftwareSerial sim800l(1, 0); // Defining Sim800L RX and TX
+  SoftwareSerial sim800l(11, 12); // Defining Sim800L RX and TX
 
   int pos; // Creating a variable for servo position
   boolean fire = false; // Defining fire is false in initial state
